@@ -1,4 +1,6 @@
 docker-scribe
 =============
 
-Docker container for scribe. This is for personal use only, but feel free to fork and modify at will. If you feel like generating a PR, go ahead!
+```
+docker run -p 1463:1463 irachex/docker-scribe /usr/local/bin/scribed -c /etc/scribe.conf
+```
